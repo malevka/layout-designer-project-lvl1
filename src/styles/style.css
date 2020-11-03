@@ -1,1 +1,105 @@
+@import "./fonts.css";
+
 /** CSS STYLE **/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.m-a {
+  margin: auto;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.w-1110 {
+  width: 1110px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.txt-white {
+  color: white;
+}
+
+.bg-white-transparent {
+  background-color: #d7ccc0;
+}
+
+.txt-white-transparent {
+  color: #d7ccc0;
+}
+
+.bg-light {
+  background-color: #f5f4f0;
+}
+
+.txt-light {
+  color: #f5f4f0;
+}
+
+.bg-primary {
+  background-color: #fe8a02;
+}
+.txt-primary {
+  color: #fe8a02;
+}
+
+.bg-primary-dark {
+  background-color: #42413c;
+}
+.txt-primary-dark {
+  color: #42413c;
+}
+
+.bg-dark {
+  background-color: #2a2626;
+}
+
+.txt-dark {
+  color: #2a2626;
+}
+
+.bg-dark-transparent {
+  background-color: #908d8b;
+}
+
+.txt-dark-transparent {
+  color: #908d8b;
+}
+
+.bg-brown {
+  background-color: #b09a81;
+}
+
+.txt-brown {
+  color: #b09a81;
+}
+
+.bg-blue {
+  background-color: #1085c5;
+}
+
+.txt-blue {
+  color: #1085c5;
+}
