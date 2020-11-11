@@ -16,6 +16,14 @@
   display: flex;
 }
 
+.fw-w {
+  flex-wrap: wrap;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
 .h-525 {
   height: 525px;
 }
@@ -67,6 +75,10 @@
 /** TYPOGRAPHY **/
 .ta-c {
   text-align: center;
+}
+
+.fs-52 {
+  font-size: 52px;
 }
 
 /** DECOTRATION **/
