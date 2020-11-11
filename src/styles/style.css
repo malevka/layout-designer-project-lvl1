@@ -50,7 +50,9 @@ body {
 }
 
 .hdr-60 {
+  font-weight: normal;
   font-size: 60px;
+  line-height: 1.1em;
 }
 
 .hdr-34 {
@@ -63,4 +65,9 @@ body {
   right: -270px;
 
   height: 525px;
+}
+
+.video {
+  margin-bottom: -200px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }

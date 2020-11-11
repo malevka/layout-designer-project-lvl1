@@ -1,3 +1,4 @@
+/** POSITIONING **/
 .pos-a {
   position: absolute;
 }
@@ -10,6 +11,7 @@
   top: 0;
 }
 
+/** BOX MODEL **/
 .d-flex {
   display: flex;
 }
@@ -34,6 +36,10 @@
   margin: auto;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -42,18 +48,28 @@
   margin-right: 30px;
 }
 
-.mt-100 {
-  margin-top: 100px;
+.mt-0 {
+  margin-top: 0;
 }
 
 .mt-22 {
   margin-top: 22px;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
 
+/** TYPOGRAPHY **/
+.ta-c {
+  text-align: center;
+}
+
+/** DECOTRATION **/
 .bg-white {
   background-color: var(--white-color);
 }
