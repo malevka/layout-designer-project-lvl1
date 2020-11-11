@@ -1,0 +1,127 @@
+.pos-a {
+  position: absolute;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.t-0 {
+  top: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.h-525 {
+  height: 525px;
+}
+
+.h-425 {
+  height: 425px;
+}
+
+.w-1110 {
+  width: 1110px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-a {
+  margin: auto;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-22 {
+  margin-top: 22px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.bg-white {
+  background-color: var(--white-color);
+}
+
+.bg-white-transparent {
+  background-color: var(--white-transparent-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-light {
+  background-color: var(--light-color);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark-color);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+
+.bg-dark-transparent {
+  background-color: var(--dark-transparent-color);
+}
+
+.bg-brown {
+  background-color: var(--brown-color);
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.txt-white {
+  color: var(--white-color);
+}
+
+.txt-white-transparent {
+  color: var(--white-transparent-color);
+}
+
+.txt-light {
+  color: var(--light-color);
+}
+
+.txt-primary {
+  color: var(--primary-color);
+}
+
+.txt-primary-dark {
+  color: var(--primary-dark-color);
+}
+
+.txt-dark {
+  color: var(--dark-color);
+}
+
+.txt-dark-transparent {
+  color: var(--dark-transparent-color);
+}
+
+.txt-brown {
+  color: var(--brown-color);
+}
+
+.txt-blue {
+  color: var(--blue-color);
+}

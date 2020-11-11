@@ -1,7 +1,7 @@
 .font-main {
-  font-family: "Open Sans", sans-serif;
+  color: var(--dark-color);
   font-size: 16px;
-  color: #2a2626;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
 }
 
