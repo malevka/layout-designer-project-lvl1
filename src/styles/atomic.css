@@ -32,6 +32,10 @@
   height: 425px;
 }
 
+.w-350 {
+  width: 350px;
+}
+
 .w-1110 {
   width: 1110px;
 }
@@ -75,6 +79,10 @@
 /** TYPOGRAPHY **/
 .ta-c {
   text-align: center;
+}
+
+.fs-64 {
+  font-size: 64px;
 }
 
 .fs-52 {
