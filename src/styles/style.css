@@ -102,6 +102,7 @@ body {
 }
 
 .hdr-34 {
+  font-weight: normal;
   font-size: 34px;
 }
 
@@ -115,6 +116,19 @@ body {
 
 .video {
   margin-bottom: -200px;
+}
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+.subheader {
+  margin: 0 0 8px 0;
+
+  font-size: 24px;
+}
+
+.subsubheader {
+  margin: 100px 0 20px 0;
+  padding: 0 0 0 8px;
+
+  font-weight: bold;
+
+  font-size: 14px;
 }

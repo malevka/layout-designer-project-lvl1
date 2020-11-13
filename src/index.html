@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
 </head>
 <body class="font-main bg-white">
-        <header class="bg bg-light pos-r">
+        <header class="pos-r bg bg-light">
             <section class="container pos-r">
                 <h1 class="font-header hdr-72 h-425 m-0"><span class="txt-primary">Когнитивные<br> искажения</span><br> в программировании</h1>
                 <img class="logo" src="images/main.png" alt="A pic of developer with laptop">
@@ -29,7 +29,7 @@
             <article class="container ta-c">
                 <h2 class="font-header hdr-60 mt-0 mb-30">Чтоже это такое,<br> <span class="txt-primary">когнитивные искажения?</span></h2>
                 <p class="mb-30">Что такое когнитивные искажения. Petrovna Channel</p>
-                <iframe class="video m-a" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video shadow m-a" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
             </article>
         </section>
         <section id="cognitive-biases" class="bg-primary-dark">
@@ -64,59 +64,89 @@
             </div>
             </article>
         </section>
-        <section class="bg">
-            <article id="ikea-effect" class="container">
-                <img src="images/1.png" alt="Senior developer teaches junior developer">
-                <p>Когнитивные искажения</p>
-                <h2 class="hdr-60">Эффект Икея</h2>
-                <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
-                <p>Как проявляется</p>
-                <p>Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
-                <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
+        <section class="pos-r bg bg-light">
+            <article id="ikea-effect" class="container pos-r">
+                <div class="d-flex">
+                    <img src="images/1.png" alt="Senior developer teaches junior developer" class="col mr-30 shadow">
+                    <div class="col">
+                        <p class="subheader font-header txt-dark-transparent">Когнитивные искажения</p>
+                        <h2 class="hdr-60 font-header m-0 mb-24">Эффект Икея</h2>
+                        <h3 class="hdr-34 font-header m-0">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</h3>
+                    </div>
+                </div>
+                <p class="subsubheader bg-brown txt-white">Как проявляется</p>
+                <div class="d-flex">
+                    <p class="col mr-30">Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
+                    <p class="col">Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
+                </div>
             </article>
         </section>
-        <section>
-            <article id="premature-optimization">
-                <p>Когнитивные искажения</p>
-                <h2 class="hdr-60">Преждевременная оптимизация</h2>
-                <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
-                <img src="images/2.png" alt="A developer and rocket starts from laptop">
-                <p>Как проявляется</p>
-                <p>Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
-                <p>Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+        <section class="pos-r bg bg-brown">
+            <article id="premature-optimization" class="container pos-r">
+                <div class="d-flex">
+                    <div class="col mr-30">
+                        <p class="subheader font-header txt-white">Когнитивные искажения</p>
+                        <h2 class="hdr-60 font-header m-0 mb-24 txt-white">Преждевременная оптимизация</h2>
+                        <h3 class="hdr-34 font-header m-0 txt-white">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</h3>
+                    </div>
+                    <img src="images/2.png" alt="A developer and rocket starts from laptop" class="col shadow">
+                </div>
+                <p class="subsubheader bg-white txt-primary-dark">Как проявляется</p>
+                <div class="d-flex">
+                    <p class="col mr-30 txt-white">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
+                    <p class="col txt-white">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+                </div>
             </article>
         </section>
-        <section>
-            <article id="novelty-bias">
-                <img src="images/3.png" alt="A man with a light bulb and a basket of ideas">
-                <p>Когнитивные искажения</p>
-                <h2 class="hdr-60">Искажение новизны</h2>
-                <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
-                <p>Как проявляется</p>
-                <p>Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
-                <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+        <section class="pos-r bg bg-light">
+            <article id="novelty-bias" class="container pos-r">
+                <div class="d-flex">
+                    <img src="images/3.png" alt="A man with a light bulb and a basket of ideas" class="col shadow mr-30">
+                    <div class="col">
+                        <p class="subheader font-header txt-dark-transparent">Когнитивные искажения</p>
+                        <h2 class="hdr-60 font-header m-0 mb-24">Искажение новизны</h2>
+                        <h3 class="hdr-34 font-header m-0">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</h3>
+                    </div>
+                </div>
+                <p class="subsubheader bg-brown txt-white">Как проявляется</p>
+                <div class="d-flex">
+                    <p class="col mr-30">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+                    <p class="col">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+                </div>
             </article>
         </section>
-        <section>
-            <article id="present-bias">
-                <p>Когнитивные искажения</p>
-                <h2 class="hdr-60">Гиперболическое обесценивание</h2>
-                <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
-                <img src="images/4.png" alt="A man with box of gold and a mount">
-                <p>Как проявляется</p>
-                <p>Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание. </p>
-                <p>Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
+        <section class="pos-r bg bg-brown">
+            <article id="present-bias" class="container pos-r">
+                <div class="d-flex">
+                    <div class="col mr-30">
+                        <p class="subheader font-header txt-white">Когнитивные искажения</p>
+                        <h2 class="hdr-60 font-header m-0 mb-24 txt-white">Гиперболическое обесценивание</h2>
+                        <h3 class="hdr-34 font-header m-0 txt-white">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</h3>
+                    </div>
+                    <img src="images/4.png" alt="A man with box of gold and a mount" class="col shadow">
+                </div>
+                <p class="subsubheader bg-white txt-primary-dark">Как проявляется</p>
+                <div class="d-flex">
+                    <p class="col mr-30 txt-white">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание. </p>
+                    <p class="col txt-white">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
+                </div>
             </article>
         </section>
-        <section>
-            <article id="planning-fallacy">
-                <img src="images/5.png" alt="A man with clock and todo list">
-                <p>Когнитивные искажения</p>
-                <h2 class="hdr-60">Ошибка планирования</h2>
-                <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
-                <p>Как проявляется</p>
-                <p>Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
-                <p>Это отлично выражается в старом афоризме: <br>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
+        <section class="pos-r bg bg-light">
+            <article id="planning-fallacy" class="container pos-r">
+                <div class="d-flex">
+                    <img src="images/5.png" alt="A man with clock and todo list" class="col mr-30 shadow">
+                    <div class="col">
+                        <p class="subheader font-header txt-dark-transparent">Когнитивные искажения</p>
+                        <h2 class="hdr-60 font-header m-0 mb-24">Ошибка планирования</h2>
+                        <h3 class="hdr-34 font-header m-0">Неправильно рассчитывать время необходимое для завершения задачи.</h3>
+                    </div>
+                </div>
+                <p class="subsubheader bg-brown txt-white">Как проявляется</p>
+                <div class="d-flex">
+                    <p class="col mr-30">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
+                    <p class="col">Это отлично выражается в старом афоризме: <br>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
+                </div>
             </article>
         </section>
     </main>

@@ -48,6 +48,10 @@
   margin: auto;
 }
 
+.mb-24 {
+  margin-bottom: 24px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -76,9 +80,17 @@
   padding-top: 100px;
 }
 
+.pl-8 {
+  padding-left: 8px;
+}
+
 /** TYPOGRAPHY **/
 .ta-c {
   text-align: center;
+}
+
+.fs-14 {
+  font-size: 14px;
 }
 
 .fs-64 {
@@ -160,4 +172,8 @@
 
 .txt-blue {
   color: var(--blue-color);
+}
+
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
