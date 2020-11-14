@@ -132,3 +132,10 @@ body {
 
   font-size: 14px;
 }
+
+.send-button::before {
+  width: 24px;
+  height: 24px;
+
+  content: url("../images/send.svg");
+}

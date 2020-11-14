@@ -12,6 +12,14 @@
 }
 
 /** BOX MODEL **/
+.bxz-bb {
+  box-sizing: border-box;
+}
+
+.d-blk {
+  display: block;
+}
+
 .d-flex {
   display: flex;
 }
@@ -24,12 +32,32 @@
   justify-content: space-between;
 }
 
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.fxg-1 {
+  flex-grow: 1;
+}
+
+.h-50 {
+  height: 50px;
+}
+
 .h-525 {
   height: 525px;
 }
 
 .h-425 {
   height: 425px;
+}
+
+.miw-70 {
+  min-width: 70px;
 }
 
 .w-350 {
@@ -46,6 +74,14 @@
 
 .m-a {
   margin: auto;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-24 {
@@ -72,16 +108,40 @@
   margin-top: 22px;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
+
 .mt-100 {
   margin-top: 100px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.pt-55 {
+  padding-top: 55px;
 }
 
 .pt-100 {
   padding-top: 100px;
 }
 
+.pr-75 {
+  padding-right: 55px;
+}
+
+.pb-55 {
+  padding-bottom: 55px;
+}
+
 .pl-8 {
   padding-left: 8px;
+}
+
+.pl-52 {
+  padding-left: 52px;
 }
 
 /** TYPOGRAPHY **/
@@ -89,16 +149,32 @@
   text-align: center;
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
 .fs-14 {
   font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-52 {
+  font-size: 52px;
 }
 
 .fs-64 {
   font-size: 64px;
 }
 
-.fs-52 {
-  font-size: 52px;
+.fw-b {
+  font-weight: bold;
 }
 
 /** DECOTRATION **/
@@ -174,6 +250,18 @@
   color: var(--blue-color);
 }
 
+.txt-black {
+  color: var(--black-color);
+}
+
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.bd-n {
+  border: none;
+}
+
+.ol-n {
+  outline: none;
 }
