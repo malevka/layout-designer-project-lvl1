@@ -1,0 +1,15 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+input,
+button {
+  padding: 0;
+
+  border: none;
+  border-radius: 0;
+}

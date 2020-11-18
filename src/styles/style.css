@@ -1,20 +1,14 @@
+@import "./normalize.css";
 @import "./palette.css";
 @import "./atomic.css";
 @import "./fonts.css";
 
 /** CSS STYLE **/
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .link-reset {
-  color: inherit;
-
   text-decoration: none;
 }
 
-.bg::before {
+.bg-questions::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -30,34 +24,20 @@ body {
   content: "";
 }
 
-.btn {
-  display: inline-block;
-
-  padding: 12px 24px;
-}
-
-.btn-primary {
-  color: var(--white-color);
-
-  font-weight: bold;
-
-  background-color: var(--primary-color);
-}
-
 .card {
   display: inline-block;
   box-sizing: border-box;
   width: 350px;
   margin-bottom: 20px;
   padding: 24px;
-}
 
-.card-white {
+  color: var(--dark-color);
+
   background-color: var(--light-color);
 }
 
 .card-number {
-  margin: 0 0 40px 0;
+  margin-bottom: 40px;
 
   color: var(--primary-dark-color);
 
@@ -67,22 +47,25 @@ body {
 }
 
 .card-title {
-  margin: 0 0 4px 0;
+  margin-bottom: 4px;
 
   color: var(--primary-color);
+
   font-weight: normal;
+
+  font-size: 34px;
 }
 
-.card-white:hover {
+.card:hover {
   background-color: var(--primary-color);
 }
 
-.card-white:hover * {
+.card:hover * {
   color: var(--white-color);
 }
 
 .col {
-  flex: 0 1 100%;
+  flex: 1 0 0;
 }
 
 .container {
@@ -91,40 +74,13 @@ body {
   padding: 100px 0;
 }
 
-.hdr-72 {
-  font-size: 72px;
-}
-
-.hdr-60 {
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 1.1em;
-}
-
-.hdr-34 {
-  font-weight: normal;
-  font-size: 34px;
-}
-
-.logo {
-  position: absolute;
-  top: 0;
-  right: -270px;
-
-  height: 525px;
-}
-
-.video {
-  margin-bottom: -200px;
-}
-
-.subheader {
-  margin: 0 0 8px 0;
+.section-header {
+  margin-bottom: 8px;
 
   font-size: 24px;
 }
 
-.subsubheader {
+.section-subheader {
   margin: 100px 0 20px 0;
   padding: 0 0 0 8px;
 
@@ -138,4 +94,12 @@ body {
   height: 24px;
 
   content: url("../images/send.svg");
+}
+
+.video {
+  width: 919px;
+  height: 569px;
+  margin-bottom: -200px;
+
+  border: 0;
 }
