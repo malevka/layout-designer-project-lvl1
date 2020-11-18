@@ -12,3 +12,6 @@ $ make install
 ```sh
 make lint
 ```
+
+## Website link
+[Когнитивные искажения](https://obeisant-story.surge.sh)
