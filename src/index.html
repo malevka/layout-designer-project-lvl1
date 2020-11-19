@@ -10,7 +10,7 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
 </head>
-<body class="font-main bg-white">
+<body class="font-main ovx-h bg-white">
 <header class="pos-r bg-questions bg-light">
     <div class="container pos-r">
         <img class="pos-a t-0 r-minus-270 h-525" src="images/main.png" alt="A pic of developer with laptop">
@@ -23,8 +23,9 @@
                     некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
             </div>
             <div class="col">
-                <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
-                    продуктивности, багам и бесконечному разочарованию.</p><br>
+                <p class="mb-16">Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
+                    продуктивности, багам и бесконечному разочарованию.</p>
+
                 <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и
                     цикл, а остатки нейтрализовать.</p>
                 <a class="link-reset d-ib mt-38 pt-12 pr-24 pb-12 pl-24 fw-b bg-primary txt-white"
@@ -39,7 +40,7 @@
             <h2 class="font-header mb-30 fs-60 fw-n lh-110">Чтоже это такое,<br> <span
                     class="txt-primary">когнитивные искажения?</span></h2>
             <p class="mb-30">Что такое когнитивные искажения. Petrovna Channel</p>
-            <iframe class="video shadow" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
         </div>
     </div>
     <div id="cognitive-biases" class="bg-primary-dark">
@@ -84,7 +85,7 @@
         <div class="container pos-r">
             <div class="d-flex">
                 <div class="col mr-30">
-                    <img src="images/1.png" alt="Senior developer teaches junior developer" class="shadow">
+                    <img src="images/1.png" alt="Senior developer teaches junior developer" class="section-image">
                 </div>
                 <div class="col">
                     <p class="section-header font-header txt-dark-transparent">Когнитивные искажения</p>
@@ -119,7 +120,7 @@
                         появляется необходимость.</h3>
                 </div>
                 <div class="col">
-                    <img src="images/2.png" alt="A developer and rocket starts from laptop" class="shadow">
+                    <img src="images/2.png" alt="A developer and rocket starts from laptop" class="section-image">
                 </div>
             </div>
             <p class="section-subheader bg-white txt-primary-dark">Как проявляется</p>
@@ -139,7 +140,7 @@
         <div class="container pos-r">
             <div class="d-flex">
                 <div class="col mr-30">
-                    <img src="images/3.png" alt="A man with a light bulb and a basket of ideas" class="shadow">
+                    <img src="images/3.png" alt="A man with a light bulb and a basket of ideas" class="section-image">
                 </div>
                 <div class="col">
                     <p class="section-header font-header txt-dark-transparent">Когнитивные искажения</p>
@@ -173,7 +174,7 @@
                         игнорируете более крупную, недоступную сейчас, но доступную в будущем.</h3>
                 </div>
                 <div class="col">
-                    <img src="images/4.png" alt="A man with box of gold and a mount" class="shadow">
+                    <img src="images/4.png" alt="A man with box of gold and a mount" class="section-image">
                 </div>
             </div>
             <p class="section-subheader bg-white txt-primary-dark">Как проявляется</p>
@@ -196,7 +197,7 @@
         <div class="container pos-r">
             <div class="d-flex">
                 <div class="col mr-30">
-                    <img src="images/5.png" alt="A man with clock and todo list" class="shadow">
+                    <img src="images/5.png" alt="A man with clock and todo list" class="section-image">
                 </div>
                 <div class="col">
                     <p class="section-header font-header txt-dark-transparent">Когнитивные искажения</p>
@@ -228,22 +229,24 @@
                 <p class="font-header fs-36 txt-white">Хотите узнать больше?<br>Подпишитесь на обновления</p>
             </div>
             <div class="col">
-                <label for="email" class="d-b mb-8 fw-b fs-18 txt-white">Электронная почта</label>
-                <div class="d-flex">
-                    <input type="email" id="email" placeholder="Ваша электронная почта"
-                           class="bxz-bb h-50 mb-8 p-15 fxg-1 bd-n ol-n fs-18">
-                    <button class="send-button d-flex ai-c jc-c miw-70 h-50 bd-n ol-n bg-primary"></button>
-                </div>
+                <form>
+                    <label for="email" class="d-b mb-8 fw-b fs-18 txt-white">Электронная почта</label>
+                    <div class="d-flex">
+                        <input type="email" id="email" placeholder="Ваша электронная почта"
+                               class="bxz-bb h-50 mb-8 p-15 fxg-1 bd-n ol-n fs-18">
+                        <button class="send-button d-flex ai-c jc-c miw-70 h-50 bd-n ol-n bg-primary"></button>
+                    </div>
+                </form>
                 <p class="fs-12 txt-white">Подписываясь, вы принимаете <a href="#" class="txt-white">правила
                     сервиса</a></p>
             </div>
         </div>
         <p class="mt-60 mb-16 ta-c fs-14 txt-black">© 2020 Малева Ольга</p>
         <p class="mb-16 ta-c fs-14 txt-black">По материалам статьи <a
-                href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="txt-blue">Yash
+                href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" target="_blank" class="txt-blue">Yash
             Ranadive
             Cognitive Biases in Programming</a></p>
-        <div class="ta-c"><a href="https://ru.hexlet.io/" class="fs-14 txt-blue">Курсы программирования Hexlet</a></div>
+        <div class="ta-c"><a href="https://ru.hexlet.io/" target="_blank" class="fs-14 txt-blue">Курсы программирования Hexlet</a></div>
     </div>
 </footer>
 </body>
