@@ -113,6 +113,8 @@
 
   background-color: var(--primary-color);
   border: none;
+
+  cursor: pointer;
 }
 
 .send-button::before {
