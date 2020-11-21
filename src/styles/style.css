@@ -20,6 +20,38 @@
   content: "";
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 38px;
+  padding: 12px 24px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-orange {
+  background-color: var(--primary-color);
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  height: 50px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn-icon::before {
+  width: 24px;
+  height: 24px;
+
+  content: url("../images/send.svg");
+}
+
 .card {
   display: inline-block;
   box-sizing: border-box;
@@ -65,9 +97,34 @@
 }
 
 .container {
+  position: relative;
+
   width: 1110px;
   margin: auto;
   padding: 100px 0;
+}
+
+.hdr-72 {
+  position: relative;
+
+  margin-bottom: 170px;
+
+  font-weight: normal;
+
+  font-size: 72px;
+}
+
+.hdr-60 {
+  font-weight: normal;
+
+  font-size: 60px;
+  line-height: 1.1em;
+}
+
+.hdr-52 {
+  font-weight: normal;
+
+  font-size: 52px;
 }
 
 .input {
@@ -80,6 +137,29 @@
   font-size: 18px;
 
   border: none;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-image {
+  position: absolute;
+  top: 0;
+  right: -270px;
+
+  height: 525px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
 .section-header {
@@ -105,24 +185,11 @@
   height: 405px;
 }
 
-.send-button {
+.subscription-block {
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-width: 70px;
-  height: 50px;
 
-  background-color: var(--primary-color);
-  border: none;
-
-  cursor: pointer;
-}
-
-.send-button::before {
-  width: 24px;
-  height: 24px;
-
-  content: url("../images/send.svg");
+  padding: 43px 75px 41px 52px;
 }
 
 .video {

@@ -1,79 +1,23 @@
 /** POSITIONING **/
-.pos-a {
-  position: absolute;
-}
-
 .pos-r {
   position: relative;
 }
 
-.t-0 {
-  top: 0;
-}
-
-.r-minus-270 {
-  right: -270px;
-}
-
 /** BOX MODEL **/
-.bxz-bb {
-  box-sizing: border-box;
-}
-
-.d-b {
-  display: block;
-}
-
 .d-flex {
   display: flex;
-}
-
-.d-ib {
-  display: inline-block;
-}
-
-.fw-w {
-  flex-wrap: wrap;
-}
-
-.jc-sb {
-  justify-content: space-between;
-}
-
-.ai-c {
-  align-items: center;
-}
-
-.h-425 {
-  height: 425px;
-}
-
-.h-525 {
-  height: 525px;
 }
 
 .w-350 {
   width: 350px;
 }
 
-.mt-38 {
-  margin-top: 38px;
-}
-
 .mt-60 {
   margin-top: 60px;
 }
 
-.mt-100 {
-  margin-top: 100px;
-}
-
 .mr-30 {
   margin-right: 30px;
-}
-
-.mb-8 {
-  margin-bottom: 8px;
 }
 
 .mb-16 {
@@ -86,38 +30,6 @@
 
 .mb-30 {
   margin-bottom: 30px;
-}
-
-.pt-12 {
-  padding-top: 12px;
-}
-
-.pt-43 {
-  padding-top: 43px;
-}
-
-.pr-24 {
-  padding-right: 24px;
-}
-
-.pr-75 {
-  padding-right: 75px;
-}
-
-.pb-12 {
-  padding-bottom: 12px;
-}
-
-.pb-41 {
-  padding-bottom: 41px;
-}
-
-.pl-24 {
-  padding-left: 24px;
-}
-
-.pl-52 {
-  padding-left: 52px;
 }
 
 /** TYPOGRAPHY **/
@@ -133,40 +45,12 @@
   font-size: 14px;
 }
 
-.fs-18 {
-  font-size: 18px;
-}
-
 .fs-34 {
   font-size: 34px;
 }
 
 .fs-36 {
   font-size: 36px;
-}
-
-.fs-52 {
-  font-size: 52px;
-}
-
-.fs-60 {
-  font-size: 60px;
-}
-
-.fs-72 {
-  font-size: 72px;
-}
-
-.fw-b {
-  font-weight: bold;
-}
-
-.fw-n {
-  font-weight: normal;
-}
-
-.lh-110 {
-  line-height: 1.1em;
 }
 
 .td-n {
@@ -176,10 +60,6 @@
 /** DECOTRATION **/
 .bg-white {
   background-color: var(--white-color);
-}
-
-.bg-primary {
-  background-color: var(--primary-color);
 }
 
 .bg-light {
