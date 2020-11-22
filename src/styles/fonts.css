@@ -6,6 +6,7 @@
 }
 
 .font-header {
+  font-weight: normal;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
