@@ -4,6 +4,14 @@
 @import "./fonts.css";
 
 /** CSS STYLE **/
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  font-family: "Neucha", cursive;
+  line-height: 1.2em;
+}
+
 .bg-questions::before {
   position: absolute;
   top: 0;
@@ -103,19 +111,15 @@
   padding: 100px 0;
 }
 
-.hdr-72 {
+.h1 {
   position: relative;
 
   font-size: 72px;
 }
 
-.hdr-60 {
+.h2 {
   font-size: 60px;
   line-height: 1.1em;
-}
-
-.hdr-52 {
-  font-size: 52px;
 }
 
 .input {
