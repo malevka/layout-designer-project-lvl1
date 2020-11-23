@@ -53,7 +53,6 @@
 }
 
 .card {
-  display: inline-block;
   box-sizing: border-box;
   width: 350px;
   margin-bottom: 20px;
