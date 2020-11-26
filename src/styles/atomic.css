@@ -86,6 +86,10 @@
   color: var(--white-color);
 }
 
+.txt-dark {
+  color: var(--dark-color);
+}
+
 .txt-primary {
   color: var(--primary-color);
 }
